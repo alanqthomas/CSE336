@@ -1,0 +1,557 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Oracle OpenWorld 2014 Pre-Registration</title>
+<link rel="stylesheet" href="Oracle%20OpenWorld%202014%20Pre-Registration_files/hp-styles.css" type="text/css">
+<style type="text/css"> 
+body {padding:10;margin:0;font-family:arial,helvetica,sans-serif;font-size:11px;color:#000;}
+.lightbox_overlay {display: none;position: fixed;top: 0%;left: 0%;width:100%;height:100%;background-color: black;z-index:1001;-moz-opacity: 0.6;opacity:.60;filter: alpha(opacity=60);overflow:auto;}
+.sitefinder_content {position:absolute;right:20px;z-index:1002;overflow: auto;top:5px;}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="If you are interested in attending Oracle OpenWorld 2011 enter the following information and you will be notified via e-mail when registration is open.">
+<meta name="keywords" content="Oracle, CRM, Oracle OpenWorld, Oracle OpenWorld 2011">
+<meta content="index, follow" name="robots">
+<!--<script type="text/javascript"src="http://www.oracle.com/dm/cim/siebelcrmfiles/googlefix.js"></script>
+<script language="javascript" src="siebelcrmfiles/lib.js" type="text/javascript"></script>-->
+<style type="text/css"> 
+form{ margin-bottom: 0px; margin-top: 0px;}
+.main_table{
+	border-right: 1px solid #CCCCCC; 
+	border-left: 1px solid #CCCCCC; 
+	border-top: 1px solid #CCCCCC; 
+	border-bottom: 1px solid #CCCCCC;
+}
+.textbox{
+	color: #222222;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 10px;
+	border-right: 1px solid #000000; 
+	border-left: 1px solid #000000; 
+	border-top: 1px solid #000000; 
+	border-bottom: 1px solid #000000;
+	width: 150px;
+}
+.button{
+	border-top: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+	background-color: #FF0000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	height: 23px;
+	color: #FFFFFF;
+	font-weight: bold;
+	width: 150px;
+}
+.shadow_left{
+	background-image:url(shadow_left.gif);
+}
+.shadow_right{
+	background-image:url(shadow_right.gif);
+}
+.style1 {color: #FFFFFF}
+</style>
+<!--<script language="javascript" src="siebelcrmfiles/lib.js" type="text/javascript"></script>-->
+<script src="Oracle%20OpenWorld%202014%20Pre-Registration_files/elqCfg.js" async="" type="text/javascript"></script><script language="javascript" type="text/javascript"> 
+function changeDetails(){
+	if(document.frm.l_fname.value==""){
+		alert("Please Enter Your First Name.");
+		document.frm.l_fname.focus();
+		return false;
+	}
+	if(document.frm.l_lname.value==""){
+		alert("Please Enter Your Last Name.");
+		document.frm.l_lname.focus();
+		return false;
+	}
+	if(document.frm.l_email.value==""){
+		alert("Please Enter Your Email.");
+		document.frm.l_email.focus();
+		return false;
+	}
+	if (echeck(document.frm.l_email.value)==false){
+		alert("Please enter your valid eMail Id.");
+		document.frm.l_email.focus();
+		return false
+	}
+	if(document.getElementById("txt1").value==""){
+		alert("Please Enter Your Company");
+		document.getElementById("txt1").focus();
+		return false;
+	}
+	if(document.getElementById("country") && document.getElementById("country").value==""){
+		alert("Please Select Your Country.");
+		document.getElementById("country").focus();
+		return false;
+	}	
+	else{
+		var pass =false;
+		for(var k=1;k<5;k++)
+		{
+			if(document.getElementById("interest_"+k).checked==true && pass==false)
+			{	
+				var pass = true;
+				break;
+			}
+		}
+		
+		if(!pass)
+		{			
+			alert("Please select your interest to attend");
+			return false;
+		}
+		else
+		{
+			frm.submit.disabled=true;
+			return true;
+		}
+	}
+}
+function echeck(str) {
+	var at="@";
+	var dot=".";
+	var lat=str.indexOf(at);
+	var lstr=str.length;
+	var ldot=str.indexOf(dot);
+	if (str.indexOf(at)==-1){
+		return false;
+	}
+	if(str.indexOf(at)==-1 || str.indexOf(at)==0 || str.indexOf(at)==lstr-1){
+
+		return false;
+	}
+	if (str.indexOf(dot)==-1 || str.indexOf(dot)==0 || str.indexOf(dot)==lstr-1){
+		return false;
+	}
+	if (str.indexOf(at,(lat+1))!=-1){
+		return false;
+	}
+	if (str.substring(lat-1,lat)==dot || str.substring(lat+1,lat+2)==dot){
+		return false;
+	}
+	if (str.indexOf(dot,(lat+2))==-1){
+		return false;
+	}
+	if (str.indexOf(" ")!=-1){
+		return false;
+	}
+	return true;
+}
+</script>
+<!-- hard code reset to default css to compensate goog toolbar 3.1.2008 autofill override -->
+<script type="text/javascript"> 
+<!--
+if(window.attachEvent)
+window.attachEvent("onload",setListeners);
+
+function setListeners(){
+inputList = document.getElementsByTagName("INPUT");
+for(i=0;i<inputList.length;i++){
+inputList[i].attachEvent("onpropertychange",restoreStyles);
+inputList[i].style.backgroundColor = "";
+}
+selectList = document.getElementsByTagName("SELECT");
+for(i=0;i<selectList.length;i++){
+selectList[i].attachEvent("onpropertychange",restoreStyles);
+selectList[i].style.backgroundColor = "";
+}
+}
+function restoreStyles(){
+if(event.srcElement.style.backgroundColor != "" && event.srcElement.style.backgroundColor != "#a0d0ff"){
+event.srcElement.style.backgroundColor = "#a0d0ff"; /* color of choice for AutoFill */
+document.all['googleblurb'].style.display = "block";
+}
+}
+//-->
+</script>
+<!--end of override -->
+</head>
+<body>
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="715">
+<tbody><tr>
+<td colspan="3"><img alt="Oracle OpenWorld 2014 - JavaOne 2014" src="Oracle%20OpenWorld%202014%20Pre-Registration_files/oow-header-2014-715x95-1940022.png" title="Oracle OpenWorld 2014 - JavaOne 2014" width="715" height="95"></td>
+</tr>
+<tr>
+<td bgcolor="#F7F7F7" width="5"><img src="Oracle%20OpenWorld%202014%20Pre-Registration_files/189995.gif" alt="" border="0" width="5" height="1"></td>
+<td style="border-left:1px solid #CCCCCC;border-right:1px solid #CCCCCC;border-bottom:1px solid #CCCCCC; padding:10px;" bgcolor="#FFFFFF" width="705">
+<table class="bodycopy" align="center" border="0" cellpadding="6" cellspacing="0" width="100%">
+<form action="http://www.oracle.com/webapps/cif/servlet/survey" method="post" name="frm" id="frm" onsubmit="return changeDetails()"></form>
+<!---------------- begin	------------------------->
+<input name="back_url" value="http://www.oracle.com/webapps/cif/servlet/survey?p_id=2046&amp;type=CIF" type="hidden">
+<input name="response" value="no" type="hidden">
+<input name="program_id" value="2046" type="hidden">
+<input name="customer_id" value="null" type="hidden">
+<input name="product_id" value="null" type="hidden">
+<input name="industry_id" value="null" type="hidden">
+<input name="user_id" value="null" type="hidden">
+<input name="type" value="CIF" type="hidden">
+<input name="title" value="null" type="hidden">
+<input name="message" value="null" type="hidden">
+<input name="act" value="1" type="hidden">
+<input name="keyword" value="null" type="hidden">
+<input name="thankyou_url" value="http://www.oracle.com/us/dm/108207-wwmk11054239mpp001-cif-t-1845703.html" type="hidden">
+<input name="wrapper" value="no" type="hidden">
+<input name="questions_number" value="4" type="hidden">
+<input name="hashtable_id" value="879205" type="hidden">
+<tbody><tr valign="bottom">
+<td colspan="3"><font size="2" face="Arial, Helvetica, sans-serif"><b><i>Get notified when 2014 registration opens for Oracle OpenWorld and JavaOne.</i></b></font>
+<br>&nbsp;</td>
+</tr>
+<tr>
+<td align="left" width="24%"><font color="#000000" size="2" face="Arial, Helvetica, sans-serif">First Name: <font color="#ff0000">*</font></font></td>
+<td align="left" width="76%"><input name="l_fname" size="35" class="textbox" type="text"></td>
+</tr>
+<tr>
+<td align="left"><font color="#000000" size="2" face="Arial, Helvetica, sans-serif">Last Name: <font color="#ff0000">*</font></font></td>
+<td><input name="l_lname" size="35" class="textbox" type="text"></td>
+</tr>
+<tr>
+<td align="left"><font color="#000000" size="2" face="Arial, Helvetica, sans-serif">Email: <font color="#ff0000">*</font></font></td>
+<td><input name="l_email" size="35" class="textbox" type="text"></td>
+</tr>
+<!-- END ofCIF Automatically generated fields -->
+<tr>
+<td align="left"><font color="#000000" size="2" face="Arial, Helvetica, sans-serif">Company <font color="#ff0000">*</font></font></td>
+<td><input name="1" id="txt1" size="35" class="textbox" type="text">
+<input name="choices_number1" value="1" type="hidden">
+<input name="autoresponse1" value="true" type="hidden">
+<input name="root_item_id1" value="null" type="hidden">
+<input name="item_order1" value="1" type="hidden">
+<input name="question_type1" value="text" type="hidden">
+<input name="question_id1" value="4608" type="hidden">
+<input name="category_id1" value="gen" type="hidden">
+<input name="question_req1" value="Y" type="hidden"></td>
+</tr>
+<tr>
+<td align="left"><font color="#000000" size="2" face="Arial, Helvetica, sans-serif">Country <font color="#ff0000">*</font></font></td>
+<td><select name="2" id="country" class="textbox">
+<option selected="selected" value="">Please Select</option>
+<option value="USA">USA</option>
+<option value="Afghanistan">Afghanistan</option>
+<option value="Albania">Albania</option>
+<option value="Algeria">Algeria</option>
+<option value="American Samoa">American Samoa</option>
+<option value="Andorra">Andorra</option>
+<option value="Angola">Angola</option>
+<option value="Anguilla">Anguilla</option>
+<option value="Antigua and Barbuda">Antigua and Barbuda</option>
+<option value="Argentina">Argentina</option>
+<option value="Armenia">Armenia</option>
+<option value="Aruba">Aruba</option>
+<option value="Ascension Island">Ascension Island</option>
+<option value="Australia">Australia</option>
+<option value="Austria">Austria</option>
+<option value="Azerbaijan">Azerbaijan</option>
+<option value="Bahamas">Bahamas</option>
+<option value="Bahrain">Bahrain</option>
+<option value="Bangladesh">Bangladesh</option>
+<option value="Barbados">Barbados</option>
+<option value="Belarus">Belarus</option>
+<option value="Belgium">Belgium</option>
+<option value="Belize">Belize</option>
+<option value="Benin">Benin</option>
+<option value="Bermuda">Bermuda</option>
+<option value="Bhutan">Bhutan</option>
+<option value="Bolivia">Bolivia</option>
+<option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+<option value="Botswana">Botswana</option>
+<option value="Bouvet Island">Bouvet Island</option>
+<option value="Brazil">Brazil</option>
+<option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+<option value="Brunei Darussalam">Brunei Darussalam</option>
+<option value="Bulgaria">Bulgaria</option>
+<option value="Burkina Faso">Burkina Faso</option>
+<option value="Burundi">Burundi</option>
+<option value="Cambodia">Cambodia</option>
+<option value="Cameroon">Cameroon</option>
+<option value="Canada">Canada</option>
+<option value="Cape Verde">Cape Verde</option>
+<option value="Cayman Islands">Cayman Islands</option>
+<option value="Central African Republic">Central African Republic</option>
+<option value="Chad">Chad</option>
+<option value="Channel Islands">Channel Islands</option>
+<option value="Chile">Chile</option>
+<option value="China">China</option>
+<option value="Christmas Island">Christmas Island</option>
+<option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option>
+<option value="Colombia">Colombia</option>
+<option value="Comoros">Comoros</option>
+<option value="Congo">Congo</option>
+<option value="Congo, Democratic Republic of">Congo, Democratic Republic of</option>
+<option value="Cook Islands">Cook Islands</option>
+<option value="Costa Rica">Costa Rica</option>
+<option value="Croatia">Croatia</option>
+<option value="Cuba">Cuba</option>
+<option value="Curacao">Curacao</option>
+<option value="Cyprus">Cyprus</option>
+<option value="Czech Republic">Czech Republic</option>
+<option value="Denmark">Denmark</option>
+<option value="Djibouti">Djibouti</option>
+<option value="Dominica">Dominica</option>
+<option value="Dominican Republic">Dominican Republic</option>
+<option value="East Timor">East Timor</option>
+<option value="Ecuador">Ecuador</option>
+<option value="Egypt">Egypt</option>
+<option value="El Salvador">El Salvador</option>
+<option value="Equatorial Guinea">Equatorial Guinea</option>
+<option value="Eritrea">Eritrea</option>
+<option value="Estonia">Estonia</option>
+<option value="Ethiopia">Ethiopia</option>
+<option value="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)</option>
+<option value="Faroe Islands">Faroe Islands</option>
+<option value="Fiji">Fiji</option>
+<option value="Finland">Finland</option>
+<option value="France">France</option>
+<option value="French Guiana">French Guiana</option>
+<option value="French Polynesia">French Polynesia</option>
+<option value="French Southern Territories">French Southern Territories</option>
+<option value="Gabon">Gabon</option>
+<option value="Gambia">Gambia</option>
+<option value="Georgia">Georgia</option>
+<option value="Germany">Germany</option>
+<option value="Ghana">Ghana</option>
+<option value="Gibraltar">Gibraltar</option>
+<option value="Greece">Greece</option>
+<option value="Greenland">Greenland</option>
+<option value="Grenada">Grenada</option>
+<option value="Guadeloupe">Guadeloupe</option>
+<option value="Guam">Guam</option>
+<option value="Guatemala">Guatemala</option>
+<option value="Guinea">Guinea</option>
+<option value="Guinea-Bissau">Guinea-Bissau</option>
+<option value="Guyana">Guyana</option>
+<option value="Haiti">Haiti</option>
+<option value="Heard and McDonald Islands">Heard and McDonald Islands</option>
+<option value="Holy See / Vatican City">Holy See / Vatican City</option>
+<option value="Honduras">Honduras</option>
+<option value="Hong Kong">Hong Kong</option>
+<option value="Hungary">Hungary</option>
+<option value="Iceland">Iceland</option>
+<option value="India">India</option>
+<option value="Indonesia">Indonesia</option>
+<option value="Iran">Iran</option>
+<option value="Iraq">Iraq</option>
+<option value="Ireland">Ireland</option>
+<option value="Israel">Israel</option>
+<option value="Italy">Italy</option>
+<option value="Ivory Coast">Ivory Coast</option>
+<option value="Jamaica">Jamaica</option>
+<option value="Japan">Japan</option>
+<option value="Jordan">Jordan</option>
+<option value="Kazakhstan">Kazakhstan</option>
+<option value="Kenya">Kenya</option>
+<option value="Kiribati">Kiribati</option>
+<option value="Korea">Korea</option>
+<option value="Korea, Democratic People's Rep">Korea, Democratic People's Rep</option>
+<option value="Kuwait">Kuwait</option>
+<option value="Kyrgyzstan">Kyrgyzstan</option>
+<option value="Laos">Laos</option>
+<option value="Latvia">Latvia</option>
+<option value="Lebanon">Lebanon</option>
+<option value="Lesotho">Lesotho</option>
+<option value="Liberia">Liberia</option>
+<option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
+<option value="Liechtenstein">Liechtenstein</option>
+<option value="Lithuania">Lithuania</option>
+<option value="Luxembourg">Luxembourg</option>
+<option value="Macau">Macau</option>
+<option value="Macedonia">Macedonia</option>
+<option value="Madagascar">Madagascar</option>
+<option value="Malawi">Malawi</option>
+<option value="Malaysia">Malaysia</option>
+<option value="Maldives">Maldives</option>
+<option value="Mali">Mali</option>
+<option value="Malta">Malta</option>
+<option value="Marshall Islands">Marshall Islands</option>
+<option value="Martinique">Martinique</option>
+<option value="Mauritania">Mauritania</option>
+<option value="Mauritius">Mauritius</option>
+<option value="Mayotte">Mayotte</option>
+<option value="Mexico">Mexico</option>
+<option value="Micronesia">Micronesia</option>
+<option value="Moldova, Republic of">Moldova, Republic of</option>
+<option value="Monaco">Monaco</option>
+<option value="Mongolia">Mongolia</option>
+<option value="Montserrat">Montserrat</option>
+<option value="Morocco">Morocco</option>
+<option value="Mozambique">Mozambique</option>
+<option value="Myanmar">Myanmar</option>
+<option value="Namibia">Namibia</option>
+<option value="Nauru">Nauru</option>
+<option value="Nepal">Nepal</option>
+<option value="Netherlands">Netherlands</option>
+<option value="Netherlands Antilles">Netherlands Antilles</option>
+<option value="New Caledonia">New Caledonia</option>
+<option value="New Zealand">New Zealand</option>
+<option value="Nicaragua">Nicaragua</option>
+<option value="Niger">Niger</option>
+<option value="Nigeria">Nigeria</option>
+<option value="Niue">Niue</option>
+<option value="Norfolk Island">Norfolk Island</option>
+<option value="Northern Mariana Islands">Northern Mariana Islands</option>
+<option value="Norway">Norway</option>
+<option value="Oman">Oman</option>
+<option value="Pakistan">Pakistan</option>
+<option value="Palau">Palau</option>
+<option value="Palestinian Authority">Palestinian Authority</option>
+<option value="Panama">Panama</option>
+<option value="Papua New Guinea">Papua New Guinea</option>
+<option value="Paraguay">Paraguay</option>
+<option value="Peru">Peru</option>
+<option value="Philippines">Philippines</option>
+<option value="Pitcairn Islands">Pitcairn Islands</option>
+<option value="Poland">Poland</option>
+<option value="Portugal">Portugal</option>
+<option value="Puerto Rico">Puerto Rico</option>
+<option value="Qatar">Qatar</option>
+<option value="Reunion">Reunion</option>
+<option value="Romania">Romania</option>
+<option value="Russian Federation">Russian Federation</option>
+<option value="Rwanda">Rwanda</option>
+<option value="Samoa">Samoa</option>
+<option value="San Marino">San Marino</option>
+<option value="Sao Tome and Principe">Sao Tome and Principe</option>
+<option value="Saudi Arabia">Saudi Arabia</option>
+<option value="Senegal">Senegal</option>
+<option value="Serbia and Montenegro">Serbia and Montenegro</option>
+<option value="Seychelles">Seychelles</option>
+<option value="Sierra Leone">Sierra Leone</option>
+<option value="Singapore">Singapore</option>
+<option value="Slovakia">Slovakia</option>
+<option value="Slovenia">Slovenia</option>
+<option value="Solomon Islands">Solomon Islands</option>
+<option value="Somalia">Somalia</option>
+<option value="South Africa">South Africa</option>
+<option value="South Georgia/South Sandwich">South Georgia/South Sandwich</option>
+<option value="Spain">Spain</option>
+<option value="Sri Lanka">Sri Lanka</option>
+<option value="St. Helena">St. Helena</option>
+<option value="St. Kitts and Nevis">St. Kitts and Nevis</option>
+<option value="St. Lucia">St. Lucia</option>
+<option value="St. Pierre and Miquelon">St. Pierre and Miquelon</option>
+<option value="St. Vincent and Grenadines">St. Vincent and Grenadine</option>
+<option value="Sudan">Sudan</option>
+<option value="Suriname">Suriname</option>
+<option value="Svalbard and Jan Mayen Islands">Svalbard and Jan Mayen Islands</option>
+<option value="Swaziland">Swaziland</option>
+<option value="Sweden">Sweden</option>
+<option value="Switzerland">Switzerland</option>
+<option value="Syrian Arab Republic">Syrian Arab Republic</option>
+<option value="Taiwan">Taiwan</option>
+<option value="Tajikistan">Tajikistan</option>
+<option value="Tanzania, United Republic of">Tanzania, United Republic of</option>
+<option value="Thailand">Thailand</option>
+<option value="Togo">Togo</option>
+<option value="Tokelau">Tokelau</option>
+<option value="Tonga">Tonga</option>
+<option value="Trinidad and Tobago">Trinidad and Tobago</option>
+<option value="Tunisia">Tunisia</option>
+<option value="Turkey">Turkey</option>
+<option value="Turkmenistan">Turkmenistan</option>
+<option value="Turks and Caicos Islands">Turks and Caicos Islands</option>
+<option value="Tuvalu">Tuvalu</option>
+<option value="US Minor Outlying Islands">US Minor Outlying Islands</option>
+<option value="Uganda">Uganda</option>
+<option value="Ukraine">Ukraine</option>
+<option value="United Arab Emirates">United Arab Emirates</option>
+<option value="United Kingdom">United Kingdom</option>
+<option value="United States of America">United States of America</option>
+<option value="Uruguay">Uruguay</option>
+<option value="Uzbekistan">Uzbekistan</option>
+<option value="Vanuatu">Vanuatu</option>
+<option value="Venezuela">Venezuela</option>
+<option value="Vietnam">Vietnam</option>
+<option value="Virgin Islands (British)">Virgin Islands (British)</option>
+<option value="Virgin Islands (U.S.)">Virgin Islands (U.S.)</option>
+<option value="Wallis and Futuna Islands">Wallis and Futuna Islands</option>
+<option value="Western Sahara">Western Sahara</option>
+<option value="Yemen">Yemen</option>
+<option value="Zambia">Zambia</option>
+<option value="Zimbabwe">Zimbabwe</option>
+</select>
+<input name="choices_number2" value="1" type="hidden">
+<input name="autoresponse2" value="true" type="hidden">
+<input name="root_item_id2" value="null" type="hidden">
+<input name="item_order2" value="2" type="hidden">
+<input name="question_type2" value="look-up" type="hidden">
+<input name="question_id2" value="5405" type="hidden">
+<input name="category_id2" value="gen" type="hidden">
+<input name="question_req2" value="Y" type="hidden"></td>
+</tr>
+<tr>
+<td align="left"><font color="#000000" size="2" face="Arial, Helvetica, sans-serif">Telephone (optional):</font></td>
+<td><input name="3" size="35" class="textbox" type="text">
+<input name="choices_number3" value="1" type="hidden">
+<input name="autoresponse3" value="true" type="hidden">
+<input name="root_item_id3" value="null" type="hidden">
+<input name="item_order3" value="3" type="hidden">
+<input name="question_type3" value="text" type="hidden">
+<input name="question_id3" value="4628" type="hidden">
+<input name="category_id3" value="gen" type="hidden">
+<input name="question_req3" value="N" type="hidden">
+<input name="choices_number4" value="2" type="hidden"></td>
+</tr>
+<tr>
+<td align="left" valign="top"><font color="#000000" size="2" face="Arial, Helvetica, sans-serif">I am interested in: <font color="#ff0000">*</font></font></td>
+<td><input name="4_1" id="interest_1" value="OpenWorld 2014" type="CheckBox"> <font color="#000000" size="2" face="Arial, Helvetica, sans-serif">Oracle OpenWorld 2014</font>
+<br>
+<input name="4_2" id="interest_2" value="JavaOne 2014" type="CheckBox"> <font color="#000000" size="2" face="Arial, Helvetica, sans-serif">JavaOne 2014</font>
+<input name="autoresponse4" value="true" type="hidden">
+<input name="root_item_id4" value="null" type="hidden">
+<input name="item_order4" value="4" type="hidden">
+<input name="question_type4" value="checkbox" type="hidden">
+<input name="question_id4" value="4629" type="hidden">
+<input name="category_id4" value="gen" type="hidden">
+<input name="question_req4" value="Y" type="hidden">
+<input name="survey_id" value="2046" type="hidden">
+<input name="event_id" value="-1" type="hidden"></td>
+</tr>
+<tr valign="middle" height="70">
+<td align="left" width="24%"></td>
+<td width="76%"><input src="Oracle%20OpenWorld%202014%20Pre-Registration_files/266667.gif" name="register" onclick="return checkMaxLength();" type="image" width="96" height="37">
+<br><br><br></td>
+</tr>
+
+</tbody></table>
+</td>
+<td bgcolor="#F7F7F7" width="5"><img src="Oracle%20OpenWorld%202014%20Pre-Registration_files/189995.gif" alt="" border="0" width="5" height="1"></td>
+</tr>
+<tr>
+<td bgcolor="#F7F7F7" width="5"><img src="Oracle%20OpenWorld%202014%20Pre-Registration_files/189995.gif" alt="" border="0" width="5" height="1"></td>
+<td bgcolor="#F7F7F7"><img src="Oracle%20OpenWorld%202014%20Pre-Registration_files/189995.gif" alt="" border="0" width="1" height="5"></td>
+
+<td bgcolor="#F7F7F7" width="5"><img src="Oracle%20OpenWorld%202014%20Pre-Registration_files/189995.gif" alt="" border="0" width="5" height="1"></td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF" width="5"><img src="Oracle%20OpenWorld%202014%20Pre-Registration_files/189995.gif" alt="" border="0" width="5" height="1"></td>
+<td>
+<table align="center" border="0" cellpadding="10" cellspacing="0" width="100%">
+<tbody><tr>
+<td align="left"><font size="1" face="Arial, Helvetica, sans-serif">Copyright © 2013 Oracle Corporation</font> </td>
+<td align="right"><font size="1" face="Arial, Helvetica, sans-serif"><a href="http://www.oracle.com/us/corporate/index.html" target="_blank"><font color="#FF0000"><u>About Oracle</u></font></a> | <a href="http://www.oracle.com/us/corporate/contact/index.html" target="_blank"><font color="#FF0000"><u>Contact Us</u></font></a> | <a href="http://www.oracle.com/us/sitemaps/index.html" target="_blank"><font color="#FF0000"><u>Site map</u></font></a> | <a href="http://www.oracle.com/us/legal/index.html" target="_blank"><font color="#FF0000"><u>Legal Notices and Terms for Use</u></font></a> | <a href="http://www.oracle.com/us/legal/privacy/index.html" target="_blank"><font color="#FF0000"><u>Privacy Statement</u></font></a></font></td>
+
+</tr>
+</tbody></table>
+</td>
+<td bgcolor="#FFFFFF" width="5"><img src="Oracle%20OpenWorld%202014%20Pre-Registration_files/189995.gif" alt="" border="0" width="5" height="1"></td>
+</tr>
+</tbody></table>
+<p align="center">
+<!--- SC Static Overwrite -->
+</p><form name="theForm">
+<input name="p_omo_code" value="WWMK11054239MPP001_Capturing_Interest_OpenWorld-JavaOne-2013_Welcome" type="hidden">
+<input name="src" value="NA" type="hidden">
+<input name="p_dlg_id" value="NA" type="hidden">
+<input name="act" value="NA" type="hidden">
+</form>
+<p></p>
+<!-- EOF -->
+<!-- Start SiteCatalyst code -->
+
+<script language="JavaScript" src="Oracle%20OpenWorld%202014%20Pre-Registration_files/ora_ocom.js"></script><script type="text/javascript" src="Oracle%20OpenWorld%202014%20Pre-Registration_files/ora_code_ocom.js"></script><script type="text/javascript" src="Oracle%20OpenWorld%202014%20Pre-Registration_files/ora_code.js"></script>
+<!-- End SiteCatalyst code -->
+
+</body></html>

@@ -1,0 +1,50 @@
+body {padding:10;margin:0;font-family:arial,helvetica,sans-serif;font-size:11px;color:#000;}
+
+.lightbox_overlay {display: none;position: fixed;top: 0%;left: 0%;width:100%;height:100%;background-color: black;z-index:1001;-moz-opacity: 0.6;opacity:.60;filter: alpha(opacity=60);overflow:auto;}
+
+.sitefinder_content {position:absolute;right:20px;z-index:1002;overflow: auto;top:5px;}
+
+form{ margin-bottom: 0px; margin-top: 0px;}
+
+.main_table{
+		border-right: 1px solid #CCCCCC; 
+		border-left: 1px solid #CCCCCC; 
+		border-top: 1px solid #CCCCCC; 
+		border-bottom: 1px solid #CCCCCC;
+}
+
+.textbox{
+		color: #222222;
+		font-family: Arial, Helvetica, sans-serif;
+		text-decoration: none;
+		font-size: 10px;
+		border-right: 1px solid #000000; 
+		border-left: 1px solid #000000; 
+		border-top: 1px solid #000000; 
+		border-bottom: 1px solid #000000;
+		width: 150px;
+}
+	
+.button{
+		border-top: 1px solid #999999;
+		border-bottom: 1px solid #999999;
+		border-left: 1px solid #999999;
+		border-right: 1px solid #999999;
+		background-color: #FF0000;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 11px;
+		height: 23px;
+		color: #FFFFFF;
+		font-weight: bold;
+		width: 150px;
+}
+			
+.shadow_left{
+		background-image:url(shadow_left.gif);
+}
+			
+.shadow_right{
+		background-image:url(shadow_right.gif);
+}
+	
+.style1 {color: #FFFFFF}
